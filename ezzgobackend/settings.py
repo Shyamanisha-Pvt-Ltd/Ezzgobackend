@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'ezzgobackend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'ezzgo-database',
+        'NAME': 'ezzgo_data',
         'USER': 'postgres_ezzgo',
         'PASSWORD': 'MASS%20#01$23',
         'HOST': 'ezzgo-database.cuqh6hgavddy.ap-south-1.rds.amazonaws.com',
