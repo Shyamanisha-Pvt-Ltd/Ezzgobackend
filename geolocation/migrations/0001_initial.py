@@ -8,7 +8,7 @@ from pathlib import Path
 
 DATA_FILENAME = 'shop-data.json'
 def load_data(apps, schema_editor):
-    Shop = apps.get_model('shops', 'Shop')
+    Shop = apps.get_model('geolocation', 'Shop')
     jsonfile = Path(__file__).parents[2] / DATA_FILENAME
 
     with open(str(jsonfile)) as datafile:
